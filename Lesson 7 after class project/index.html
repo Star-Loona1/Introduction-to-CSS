@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Me getting familiar with CSS Properties</title>
+    <!--Internal CSS-->
+    <style>
+        /*This is an element selector*/
+        /*color is the property and aquamarine is the value*/
+        /*font-size is the property and 50px is the value*/
+        h1{
+            color:aquamarine;
+            font-size: 50px;
+        }
+                /*This is an id selector*/
+        /*color is the property and aquamarine is the value*/
+        /*font-size is the property and 40px is the value*/
+        #team{
+            color:aquamarine;
+            font-size: 40px;
+        }
+                /*This is a class selector*/
+        /*color is the property and chocolate is the value*/
+        /*font-size is the property and 40px is the value*/
+        .peebs{
+            color:chocolate;
+            font-size:40px;
+        }
+                /*This is a class selector*/
+        /*color is the property and darkolivegreen is the value*/
+        /*font-size is the property and 40px is the value*/
+        .rolie{
+            color:darkolivegreen;
+            font-size:40px;
+        }
+                /*This is an class selector*/
+        /*color is the property and lightseagreen is the value*/
+        /*font-size is the property and 40px is the value*/
+        .EXO{
+            color:lightseagreen;
+            font-size:40px;
+        }
+                /*This is an universal selector*/
+        /*color is the property and thistle is the value*/
+        *{
+            background-color: thistle;
+        }
+                /*This is an group selector*/
+        /*color is the property and teal is the value*/
+        h1,#team{
+            background-color: teal;
+        }
+    </style>
+    <!--External CSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <hr>
+    <h1>CSS PROPERTIES</h1>
+    <P style="color: red; font-size: 35px;" >
+        CSS is Cascading Stylesheets
+    </P><hr>
+    <p id="team">There are 3 ways of writing CSS</p>
+    <p class="peebs"><b>Inline CSS</b></p>
+    <dl class="peebs">---In this CSS, the style attribute is written inside the HTML elements</dl><hr>
+    <p class="rolie"><b>Internal CSS</b></p>
+    <dl class="rolie">---In this CSS, we use the style tag which is put in the head section</dl><hr>
+    <p class="EXO"><b>External CSS</b></p>
+    <dl class="EXO">---In this CSS, we use a link element to link an extrnal CSS file</dl><hr>
+
+</body>
+</html>
